@@ -1,0 +1,69 @@
+body{
+    background-color:white;
+    background-image: url("C:\Users\compu zxone\Downloads\Bank.png");
+}
+.home{
+    color: rgb(132, 132, 202);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.menue-bar{
+    background-color: rgb(132, 132, 202);
+    text-align: center;
+}
+.menue-bar ul
+{
+    display: inline-flex ;
+    list-style: none;
+    color: #fff;
+}
+.menue-bar ul li{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+.menue-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.de{
+    text-decoration: none;
+    color:black ;
+    text-decoration: solid;
+    text-align: justify;
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 40px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+img{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:-1;
+    background-size: center;
+}
+button{
+    align-items: center;
+    touch-action:double-tap-zoom;
+    cursor:pointer;
+    position:fixed;
+    margin-left: 650px;
+    margin-top: 50px;
+    font-size: 25px;
+    background-color:rgb(132, 132, 202) ;
+    color: white;
+    padding: 7px;
+    border-radius: 9px;
+}
+button:active{
+    transform: translateY(4px);
+}
